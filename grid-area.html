@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *::before{
+           background-color: black;
+        }
+
+        .cont {
+
+            display: grid;
+            grid-gap: 5px;
+            grid-template-areas: 'navbar  navbar navbar navbar'
+                'aside section section section '
+                'footer footer footer footer';
+            color: rgb(23, 235, 235);
+        }
+
+        #navbar {
+
+            display: flex;
+            list-style: none;
+            grid-area: navbar;
+            background-image: url('1600w-JLofAI27pCg.webp');
+            text-decoration: none;
+        }
+
+        #section {
+
+            grid-area: section;
+            background-image: url('1600w-JLofAI27pCg.webp');
+        }
+
+        #aside {
+
+            grid-area: aside;
+            background-image: url('1600w-JLofAI27pCg.webp');
+        }
+
+        #footer {
+
+            grid-area: footer;
+            background-image: url('1600w-JLofAI27pCg.webp');
+        }
+
+        ul {
+            display: flex;
+
+        }
+
+        li {
+            list-style: none;
+            margin: 4px 3px;
+            padding: 7px;
+            font-size: 19px;
+
+        }
+        a{
+            text-decoration: none;
+            color: white;
+            font-size: 25px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            margin-right: 20px;
+        }
+
+        .navbar {
+            border-radius: 40px;
+        }
+
+        .footer,
+        section,
+        aside {
+            text-align: justify;
+
+        }
+
+        .section {
+            text-align: justify;
+            padding: 19px;
+        }
+
+        .aside {
+            text-align: justify;
+            padding: 19px;
+        }
+        .footer{
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="cont">
+        <div id="navbar" class="navbar">
+            <ul>
+                <li class="li"><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+                <li class="li"><a href="https://www.instragram.com" target="_blank">Instragram</a></li>
+                <li class="li"><a href="https://www.twitter.com" target="_blank">Twitter</a></li>
+                <li class="li"><a href="https://www.whatsappweb.com" target="_blank">Whatsapp</a></li>
+            </ul>
+        </div>
+        <div id="section" class="section">
+            <h1>This is section</h1>
+            
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates delectus voluptatibus, hic
+                praesentium nemo sit sunt asperiores dicta natus, culpa blanditiis totam et soluta! Tempora voluptate
+                ullam dolores iste fugiat voluptas unde sequi similique iusto. Debitis, neque labore laudantium,
+                sapiente dolorum incidunt autem non ratione corporis nemo, officia mollitia eos commodi illo corrupti
+                natus necessitatibus iure quam facilis nostrum fuga! Nesciunt veritatis asperiores facere nobis sequi,
+                obcaecati perspiciatis aliquid, illum ad vero laboriosam sunt nostrum et eveniet eius porro corrupti
+                aspernatur atque minima laborum architecto! Atque totam ullam est eum ipsum ab, odit molestiae eos
+                suscipit autem dolorem amet aliquid saepe! Est at ea officiis aperiam unde exercitationem facere tempora
+                esse, commodi, velit harum aspernatur omnis asperiores praesentium tempore debitis sequi? Cupiditate
+                illo veritatis facere labore dicta veniam quaerat cumque soluta sed ea tempora aliquid reprehenderit,
+                enim ratione pariatur nemo excepturi nulla, sequi provident accusantium dolorem. Quos sapiente delectus
+                quasi?</p>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates delectus voluptatibus, hic
+                praesentium nemo sit sunt asperiores dicta natus, culpa blanditiis totam et soluta! Tempora voluptate
+                ullam dolores iste fugiat voluptas unde sequi similique iusto. Debitis, neque labore laudantium,
+                sapiente dolorum incidunt autem non ratione corporis nemo, officia mollitia eos commodi illo corrupti
+                natus necessitatibus iure quam facilis nostrum fuga! Nesciunt veritatis asperiores facere nobis sequi,
+                obcaecati perspiciatis aliquid, illum ad vero laboriosam sunt nostrum et eveniet eius porro corrupti
+                aspernatur atque minima laborum architecto! Atque totam ullam est eum ipsum ab, odit molestiae eos
+                suscipit autem dolorem amet aliquid saepe! Est at ea officiis aperiam unde exercitationem facere tempora
+                esse, commodi, velit harum aspernatur omnis asperiores praesentium tempore debitis sequi? Cupiditate
+                illo veritatis facere labore dicta veniam quaerat cumque soluta sed ea tempora aliquid reprehenderit,
+                enim ratione pariatur nemo excepturi nulla, sequi provident accusantium dolorem. Quos sapiente delectus
+                quasi?</p>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates delectus voluptatibus, hic
+                praesentium nemo sit sunt asperiores dicta natus, culpa blanditiis totam et soluta! Tempora voluptate
+                ullam dolores iste fugiat voluptas unde sequi similique iusto. Debitis, neque labore laudantium,
+                sapiente dolorum incidunt autem non ratione corporis nemo, officia mollitia eos commodi illo corrupti
+                natus necessitatibus iure quam facilis nostrum fuga! Nesciunt veritatis asperiores facere nobis sequi,
+                obcaecati perspiciatis aliquid, illum ad vero laboriosam sunt nostrum et eveniet eius porro corrupti
+                aspernatur atque minima laborum architecto! Atque totam ullam est eum ipsum ab, odit molestiae eos
+                suscipit autem dolorem amet aliquid saepe! Est at ea officiis aperiam unde exercitationem facere tempora
+                esse, commodi, velit harum aspernatur omnis asperiores praesentium tempore debitis sequi? Cupiditate
+                illo veritatis facere labore dicta veniam quaerat cumque soluta sed ea tempora aliquid reprehenderit,
+                enim ratione pariatur nemo excepturi nulla, sequi provident accusantium dolorem. Quos sapiente delectus
+                quasi?</p>
+           
+        </div>
+        <div id="aside" class="aside">
+            <h1>This is aside</h1>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus possimus facere repellendus
+            iste delectus autem officia eius quo. Dicta impedit, qui, vero aspernatur illo ducimus minus, harum
+            similique possimus accusantium explicabo velit eos ullam?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores doloribus error consequuntur officiis?
+            Veritatis nisi vel doloremque, minima dolorum nemo eaque veniam modi ullam quasi non alias debitis
+            perferendis! Sunt perferendis beatae at quos.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores doloribus error consequuntur officiis?
+            Veritatis nisi vel doloremque, minima dolorum nemo eaque veniam modi ullam quasi non alias debitis
+            perferendis! Sunt perferendis beatae at quos.
+        </div>
+        <div id="footer" class="footer">
+            Create by Ghulam Shabbir
+        </div>
+</body>
+
+</html>

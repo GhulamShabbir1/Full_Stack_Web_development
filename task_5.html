@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        nav{
+            display: flex;
+            justify-content: space-evenly;
+            background-color: aquamarine;
+            border-radius: 50px;
+            margin: 10px;
+
+        }
+        a{
+            text-decoration: none;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 30px;
+            font-weight: bold;
+        }
+        a:hover{
+            color: blue;
+        }
+        nav:hover{
+            
+            box-shadow: 0px 0px  25px rgb(55, 107, 114);
+        }
+        @media screen and (max-width:375px) {
+            nav{
+                display: flex;
+                
+                flex-direction: column;
+                background-color: brown;
+            }
+            a{
+                font-size: 20px;
+                
+            }
+        }
+    </style>
+</head>
+<body>
+   <nav>
+    <a href="">Home</a>
+    <a href="">About</a>
+    <a href="">Skill </a>
+    <a href="">Contact</a>
+   </nav> 
+</body>
+</html>

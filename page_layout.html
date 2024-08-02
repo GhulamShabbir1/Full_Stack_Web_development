@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .cont {
+
+      display: grid;
+      grid-gap: 5px;
+      grid-template-areas: 'navbar  navbar navbar navbar'
+        'aside section section section '
+        'footer footer footer footer';
+    }
+
+    #navbar {
+
+      grid-area: navbar;
+      background-color: rgb(187, 35, 35);
+    }
+
+    #section {
+
+      grid-area: section;
+      background-color: rgb(141, 209, 14);
+    }
+
+    #aside {
+
+      grid-area: aside;
+      background-color: rgb(31, 87, 209);
+    }
+
+    #footer {
+
+      grid-area: footer;
+      background-color: aqua;
+    }
+    .navbar{
+        he
+    }
+
+    .footer,
+    section,
+    aside {
+      text-align: justify ;
+
+    }
+
+    .section {
+      text-align: justify;
+      padding: 19px;
+    }
+
+    .aside {
+      text-align: justify;
+      padding: 19px;
+    }
+
+    .footer {
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="cont">
+    <div id="navbar" class="navbar">
+      This is Header
+    </div>
+    <div id="section" class="section">
+      <h1>This is section</h1>
+
+    </div>
+    <div id="aside" class="aside">
+      <h1>This is aside</h1>
+    </div>
+    <div id="footer" class="footer">
+      This is Footer
+    </div>
+  </div>
+  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+</body>
+
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root{
+            --primary-colour:yellow;
+            --danger-colour:#ffff;
+        }
+        .contain{
+            height: 50%;
+            width: 50%;
+            border: 2px solid green;
+            background-color: var(--danger-colour);
+            margin: auto;
+            align-items: center;
+            flex-wrap: wrap;
+            padding: 10px;
+        }
+        .box {
+            --box-color:green;
+            width: 20%;
+            height: 20%;
+            border: 7px solid var(--primary-colour);
+            background-color:var(--box-color);
+            flex-direction: column;
+            padding: 10px;
+            margin: 4px;
+            border-radius: 30px;
+            text-align: center;
+            flex-direction: row;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="contain">
+        <div class="box" id="item-1">I am a box 1</div>
+        <div class="box" id="item-2">I am a box 2</div>
+        <div class="box" id="item-3">I am a box 3</div>
+    </div>
+
+</body>
+
+</html>

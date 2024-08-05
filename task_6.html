@@ -1,0 +1,43 @@
+<!-- create use condition statement in js that get information for job and match with requirements .conditate pass only if atleast 2 requirements match with job requirement -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>police job</h1>
+    <script>
+        var a = prompt("Enter your Height")
+        var b = prompt("Enter your Age")
+        var c = prompt("Enter your Education")
+
+            // if (a >= 5 && b >= 18 && c >= 14) {
+            //     alert("Congratulations! You qualify for the job")
+            // } else if (a >= 5 && b >= 18 ) {
+            //     alert("Congratulations! You qualify for the job")
+            // } else if (b >= 18 && c >= 14) {
+            //     alert("Congratulations! You qualify for the job")
+            // } else if (a >= 5 && c >= 14) {
+            //     alert("Congratulations! You qualify for the job")
+            // } else {
+            //     alert("Pheli fursat ma nikal \n Daffa ho jao Agli bar bara ho kar ana")
+            // }
+
+
+            // (a >= 5 && b >= 18 && c >= 14)?alert("Congratulations! You qualify for the job"):(a >= 5 && b >= 18 )?alert("Congratulations! You qualify for the job"):(b >= 18 && c >= 14)?alert("Congratulations! You qualify for the job"):(a >= 5 && c >= 14)?alert("Congratulations! You qualify for the job"):alert("Pheli fursat ma nikal \n Daffa ho jao Agli bar bara ho kar ana")
+
+
+            (a >= 5 && b >= 18 && c >= 14) ? alert("Congratulations! You qualify for the job")
+            : (a >= 5 && b >= 18) ? alert("Congratulations! You qualify for the job")
+                : (b >= 18 && c >= 14) ? alert("Congratulations! You qualify for the job")
+                    : (a >= 5 && c >= 14) ? alert("Congratulations! You qualify for the job")
+                        : alert("Pheli fursat ma nikal \n Daffa ho jao Agli bar bara ho kar ana")
+
+    </script>
+</body>
+
+</html>

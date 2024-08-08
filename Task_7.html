@@ -1,0 +1,38 @@
+ <!-- Generate a random number and match it with your choice  -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="demo">
+        <h1>Hello</h1>
+    </div>
+    <script>
+        var a=Math.round(Math.random()* 10)
+        console.log(a)
+        var b=parseInt(prompt("Enter your choice"))
+        console.log(b)
+
+        if (a==b) {
+            console.log("Random number generate "+ a)
+            console.log("Random number you enter "+ b)
+            var res=document.getElementsByid("demo")
+            res.innerHtml="Your are pass";
+            res.style.backgroundColor ="cyan";
+            res.style.fontsize= "25px";
+            res.style.textAlign="center";
+        }
+         else {
+            // res.innerHtml="<h1>Wrong try again</h1>";
+            res.innerText="try agin";
+            res.style.color="red";
+            res.style.textAlign="center";
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!-- create 3 different objects with diferent key and assign to object 4 and then assign to object 5 then change any key value of any object through object 5 -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var obj1 = {
+            name1: "Ghulam shabbir",
+            id1: 1,
+            age1: 23
+        }
+
+        var obj2 = {
+            name2: "omer",
+            id2: 2,
+            age2: 24
+        }
+
+        var obj3 = {
+            name3: "saqib",
+            id3: 3,
+            age3: 25
+        }
+
+        var obj4 = Object.assign(obj1, obj2, obj3)
+        console.log("before ")
+        var obj5 = obj4
+
+        obj5.age3 = 26
+
+        console.log(obj5)
+    </script>
+</body>
+
+</html>

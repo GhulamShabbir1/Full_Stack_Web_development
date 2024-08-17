@@ -1,0 +1,25 @@
+<!-- create 2 functions that are call after their defination but function 1 is execute after function 2 -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ </head>
+ <body>
+    <Script>
+        const a=()=>{
+            console.log("this is function 1")
+        }
+
+        setTimeout(()=>{
+            console.log(a())
+        },5000)
+        
+        const b=()=>{
+            console.log("this is 2nd function")
+        }
+        b();
+    </Script>
+ </body>
+ </html>

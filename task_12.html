@@ -1,0 +1,30 @@
+<!-- find factorial of a given number given by user in user -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ </head>
+ <body>
+    <h1>factorial of Number</h1>
+    <script>
+        var a=parseInt(prompt("enter a number greater or equal to zero "))
+        var fact=1;
+
+        if (a<0) {
+            console.log("we are unable to find factorial of number less then zero")
+        } else {
+            for (let i = 1; i <= a; i++) {
+                fact=fact*i
+    
+            }
+        } 
+        
+        console.log("the factorial of a number is ",fact)
+
+
+
+    </script>
+ </body>
+ </html>
